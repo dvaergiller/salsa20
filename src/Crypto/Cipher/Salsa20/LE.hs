@@ -1,7 +1,6 @@
 {-# LANGUAGE CPP #-}
 module Crypto.Cipher.Salsa20.LE where
 
-import           Control.Applicative      ((<$>))
 import           Control.Exception        (assert)
 import           Control.Monad            (liftM, liftM2, liftM4, void)
 import           Data.Binary              (Binary (..), Word32, Word64, Word8)
