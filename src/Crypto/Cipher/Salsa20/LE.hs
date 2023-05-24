@@ -1,3 +1,4 @@
+{-# LANGUAGE CPP #-}
 module Crypto.Cipher.Salsa20.LE where
 
 import           Control.Applicative      ((<$>))
